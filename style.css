@@ -1,0 +1,112 @@
+/* ========================== */
+/* RESET BÁSICO PARA CONSISTÊNCIA ENTRE NAVEGADORES */
+/* ========================== */
+
+* {
+    margin: 0; /* Remove todas as margens padrão dos elementos */
+    padding: 0; /* Remove todos os preenchimentos padrão dos elementos */
+    box-sizing: border-box; /* Faz com que padding e border não aumentem o tamanho do elemento */
+    font-family: 'Open Sans', sans-serif; /* Define a fonte padrão do site */
+    scroll-behavior: smooth; /* Adiciona um efeito suave ao rolar a página */
+}
+
+/* ========================== */
+/* ESTILIZAÇÃO DO CORPO DA PÁGINA */
+/* ========================== */
+
+body {
+    background-color: #f5f5f5; /* Define um fundo cinza claro para o corpo da página */
+    color: #333; /* Define a cor do texto principal como cinza escuro */
+    line-height: 1.6; /* Aumenta o espaçamento entre linhas para melhor leitura */
+}
+
+/* ========================== */
+/* ESTILIZAÇÃO DO CABEÇALHO */
+/* ========================== */
+
+header {
+    background-color: #004080; /* Define um fundo azul escuro para o cabeçalho */
+    color: white; /* Define a cor do texto dentro do cabeçalho como branco */
+    padding: 20px; /* Adiciona espaçamento interno ao cabeçalho */
+    text-align: center; /* Centraliza o texto e os elementos dentro do cabeçalho */
+}
+
+/* ========================== */
+/* ESTILIZAÇÃO DA NAVEGAÇÃO */
+/* ========================== */
+
+nav ul {
+    list-style: none; /* Remove os marcadores padrão das listas */
+    padding: 0; /* Remove o espaçamento interno da lista */
+    margin-top: 10px; /* Adiciona um pequeno espaço acima da navegação */
+}
+
+nav ul li {
+    display: inline; /* Faz com que os itens da lista fiquem na mesma linha */
+    margin-right: 20px; /* Adiciona um espaço entre os itens do menu */
+}
+
+nav ul li a {
+    color: white; /* Define a cor do link como branco */
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    font-weight: bold; /* Deixa o texto do link em negrito */
+    transition: 0.3s; /* Adiciona um efeito de transição suave ao passar o mouse */
+}
+
+nav ul li a:hover {
+    color: #ffcc00; /* Muda a cor do link para amarelo quando o mouse passa por cima */
+}
+
+/* ========================== */
+/* ESTILIZAÇÃO DO CONTEÚDO PRINCIPAL */
+/* ========================== */
+
+main {
+    max-width: 900px; /* Define a largura máxima do conteúdo principal */
+    margin: 40px auto; /* Centraliza o `main` na tela e adiciona margem superior e inferior */
+    padding: 20px; /* Adiciona espaçamento interno para evitar que o conteúdo encoste nas bordas */
+    background-color: white; /* Define o fundo do conteúdo como branco */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra leve ao redor do `main` */
+    border-radius: 8px; /* Arredonda os cantos do `main` */
+}
+
+/* ========================== */
+/* ESTILIZAÇÃO DAS SEÇÕES */
+/* ========================== */
+
+section {
+    margin-bottom: 40px; /* Adiciona espaço entre as seções para evitar que fiquem coladas */
+    padding: 20px; /* Adiciona espaçamento interno dentro das seções */
+}
+
+h2 {
+    color: #004080; /* Define a cor dos títulos como azul escuro */
+    border-bottom: 2px solid #004080; /* Adiciona uma linha abaixo do título para destaque */
+    padding-bottom: 5px; /* Adiciona espaço entre o título e a linha */
+    margin-bottom: 15px; /* Adiciona espaço entre o título e o próximo elemento */
+}
+
+/* ========================== */
+/* ESTILIZAÇÃO DE PARÁGRAFOS E LISTAS */
+/* ========================== */
+
+p, ul {
+    font-size: 18px; /* Define um tamanho de fonte maior para melhor leitura */
+}
+
+ul {
+    padding-left: 20px; /* Adiciona um espaçamento à esquerda para alinhar os itens da lista */
+}
+
+/* ========================== */
+/* ESTILIZAÇÃO DO RODAPÉ */
+/* ========================== */
+
+footer {
+    text-align: center; /* Centraliza o conteúdo do rodapé */
+    background-color: #004080; /* Define o fundo do rodapé como azul escuro */
+    color: white; /* Define a cor do texto do rodapé como branco */
+    padding: 15px; /* Adiciona espaçamento interno ao rodapé */
+    margin-top: 40px; /* Adiciona espaço entre o rodapé e o conteúdo anterior */
+    font-size: 14px; /* Define um tamanho de fonte menor para o rodapé */
+}
